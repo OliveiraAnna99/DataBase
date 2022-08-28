@@ -1,11 +1,46 @@
 erDiagram
-    Usuario {int codigo String nome String email String username String password }
-    Despesa {int codigo String nome Date dataCriacao int qtdProduto}
-    Produto {String nome bollean tipo double peso int unidade double preco Date validade Date validadeAberto }
-    Marca {int codigo String nome }
-    Categoria {int codigo String nome }
-    Estabelecimento {String nome Endereco endereco String modalidade String tipo }
-    Compra {int codigo Date data String local }
+    Usuario {
+        int codigo PK
+        String nome 
+        String email 
+        String username 
+        String password 
+    }
+    Despesa {
+        int codigo PK
+        String nome 
+        Date dataCriacao 
+        int qtdProduto
+    }
+    Produto { 
+        String nome 
+        bollean tipo 
+        double peso 
+        int unidade 
+        double preco 
+        Date validade 
+        Date validadeAberto 
+    }
+
+    Marca {
+        int codigo PK
+        String nome 
+    }
+    Categoria {
+        int codigo PK
+        String nome
+    }
+    Estabelecimento {
+        String nome 
+        Endereco endereco
+        String modalidade
+        String tipo
+    }
+    Compra {
+        int codigo PK
+        Date data 
+        String local 
+    }
 
 
     Usuario ||--|{Despesa: possui 
