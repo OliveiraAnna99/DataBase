@@ -1,0 +1,10 @@
+erDiagram
+    Campeonato {int codigo string nome date dataInicio date dataF  }
+    Jogador {int codigo string nome string apelido string posicao }
+    Equipe {int codigo string nome Jogador jogador Comissao comissao }
+    Comissao {int codigo string nome string funcao }
+    Partida {Gols gols Date data Escalacao escalacao  }
+    
+    Campeonato ||--|{Partida: possui 
+    Campeonato ||--|{Equipe: possui
+    
