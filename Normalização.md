@@ -36,21 +36,21 @@
 
 |  Dados Cadastrais do Funcionário |   |   |   |   |
 |---|---|---|---|---|
-| Matricula:  | Nome:  |   |   |   |
-| Data Nasc.  | Nacionalidade:   | Sexo:   |   |   |
-| Est. Civil    | RG:    | CIC:   |   |   |
-| Rua:    | Telefone:    | Data de Admissão:   |   |   |
-| Bairro:    |     | Número:  |   |   |
+| Matricula:  | Nome:  |  
+| Data Nasc.  | Nacionalidade:   | Sexo:   | 
+| Est. Civil    | RG:    | CIC:   |  
+| Rua:    | Telefone:    | Data de Admissão:   |  
+| Bairro:      | Número:  |   
 
 |  Cargos Ocupados |   |   |   |   |
 |---|---|---|---|---|
-| Cargo:  | Dt Inicio:   | Dt Fim:   |   |   |
-| Cargo:  | Dt Inicio:   | Dt Fim:   |   |   |
+| Cargo:  | Dt Inicio:   | Dt Fim:   |  
+| Cargo:  | Dt Inicio:   | Dt Fim:   |  
 
 |  Dependentes |   |   |   |   |
 |---|---|---|---|---|
-| Nome:  | Dt Nascimento:   |  |   |   |
-| Nome:  | Dt Nascimento:   |  |   |   |
+| Nome:  | Dt Nascimento:   | 
+| Nome:  | Dt Nascimento:   | 
 
 <br>
 
