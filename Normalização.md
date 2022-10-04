@@ -21,6 +21,10 @@
 | Nome:  | Dt Nascimento:   |  |   |   |
 
 
+#### **1.0** Selecionamos a chave primaria para a tabela, esta pode ser composta ou simples
+
+<br>
+
 #### **1.1** Analisamos a tabela e verificamos se há necessidade da aplicação da primeira regra de normalização que diz que todo atributo na tabela deve ser atômico. Sendo assim, não pode haver campos com valores compostos.
 
 <br>
@@ -54,7 +58,11 @@
 
 <br>
 
-#### **1.2** Agora que não temos nenhum elemento composto, aplicaremos a segunda regra de normalização que avalia a relação de dependencia em relação aos componentes.
+> OBS: O endereço poderia ter permanecido como está:
+
+<br>
+
+#### **1.2** Agora que não temos nenhum elemento composto, aplicaremos a segunda regra de normalização que avalia a relação de dependencia em relação aos componentes. 
 
 <br>
 
