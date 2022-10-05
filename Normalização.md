@@ -23,6 +23,10 @@
 
 #### **1.0** Selecionamos a chave primaria para a tabela, esta pode ser composta ou simples
 
+>A chave primária é um campo que indentifica únicamente o elemento que queremos representar através do esquema de tabelas, nesse caso, como estamos querendo representar pessoas (Paciente e Funcionário). Teremos como possivel canditado ao cargo de chave-primária, o atributo: Matricula. Porém, só a matricula é capaz de me ajudar a melhorar essa tabela? 
+
+Pensemos o seguinte: Eu posso ter mais de um cargo? Se a resposta for sim, então usar apenas a matricula não vai evitar que haja repetição no banco. Pois a matricula está vinculada a um único individuo. Logo, podemos criar uma chave composta que seria (Matricula, cargo). Agora vamos ao segundo passo:
+
 <br>
 
 #### **1.1** Analisamos a tabela e verificamos se há necessidade da aplicação da primeira regra de normalização que diz que todo atributo na tabela deve ser atômico. Sendo assim, não pode haver campos com valores compostos.
@@ -58,7 +62,7 @@
 
 <br>
 
-> OBS: O endereço poderia ter permanecido como está:
+> OBS: O endereço poderia ter permanecido como está se você quisesse considerar o campo como uma String gingante e única, mas eu preferi analisar dessa forma, para colocarmos em prática todas as regras de normalização
 
 <br>
 
@@ -66,6 +70,14 @@
 
 <br>
 
-#### **Escolhemos uma chave primária para a tabela toda**
+>Aqui veremos a importancia de termos selecionado uma chave primária para a tabela toda.
 
 #### **Relação de Dependencia: Matricula**
+
+<br>
+<br>
+
+- Nome depende de Matricula? Sim. Pois sempre que eu buscar por minha matricula, eu devo ser capaz de encontrar meu nome.
+
+<br>
+
