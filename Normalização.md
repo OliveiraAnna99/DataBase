@@ -66,7 +66,7 @@ Pensemos o seguinte: Eu posso ter mais de um cargo? Se a resposta for sim, entã
 
 <br>
 
-#### **1.2** Agora que não temos nenhum elemento composto, aplicaremos a segunda regra de normalização que avalia a relação de dependencia em relação aos componentes. 
+#### **1.2** Agora que não temos nenhum elemento composto, aplicaremos a segunda regra de normalização que avalia a relação de dependencia entre os atributos, dessa mesma tabela.
 
 <br>
 
@@ -77,7 +77,25 @@ Pensemos o seguinte: Eu posso ter mais de um cargo? Se a resposta for sim, entã
 <br>
 <br>
 
-- Nome depende de Matricula? Sim. Pois sempre que eu buscar por minha matricula, eu devo ser capaz de encontrar meu nome.
+- Nome depente/determina de Matricula? Sim. Pois, cada pessoa que trabalha possuí uma matricula que determina seu vinculo com a instituição e através dela podemos chegar a informações como: nome, idade, dentre outras coisas.
+
+- Matricula depende/determina de Nome? Não, pois eu posso ter pessoas com nomes exatamente iguais e matriculas diferentes, por se tratar de pessoas distintas.
+
+- Matricula determina Dt. Nascimento? Sim. Pelas mesmas razões pelas quais nome é determinado por matricula.
+
+- Matricula determina cargo? Não. Pois eu posso ter o mesmo individuo ocupando dois cargos diferentes.
+
+
+>Para ficar mais fácil de visualizar mostraremos essa relação em forma de tabela 
+
+<br>
+
+
+
+|  Relação de Dependencia da Chave |   |   |   |   |
+|---|---|---|---|---|
+| Matricula  |  | Nome  |  
+
 
 <br>
 
