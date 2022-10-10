@@ -216,12 +216,12 @@ Portanto, a tabela está na 2FN, uma vez que código determina totalmente nome e
 <br>
 
 
-Telefone |   |   |   |   |
-|---|---|---|---|---|
+ItemPedido|   |   |   |   | |   | |
+|---|---|---|---|---|---|---|---|
 | ID Pedido  |  dt. Pedido | cód. Produto | nomeProduto | cód. Categoria | nomeCategoria | qtd | valorUnitário |
-|1|24/10/2017|35| HD 500 Gb   | 1
-|2|24/10/2017|34| HD 1 Tb     |2
-|3|25/10/2017|34| HD 1 Tb     |2
-|4|26/10/2017|35| HD 500 Gb   |1
-|1|24/10/2017|34| HD 1 Tb     |2
+|1|24/10/2017|35| HD 500 Gb   |1|Uso Pessoal     |2|100,00
+|2|24/10/2017|34| HD 1 Tb     |2|Uso Profissional|1|250,00
+|3|25/10/2017|34| HD 1 Tb     |2|Uso Profissional|4|250,00
+|4|26/10/2017|35| HD 500 Gb   |1|Uso Pessoal     |6|100,00
+|1|24/10/2017|34| HD 1 Tb     |2|Uso Profissional|1|250,00
 
