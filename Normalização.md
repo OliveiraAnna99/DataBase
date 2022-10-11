@@ -215,6 +215,23 @@ Portanto, a tabela está na 2FN, uma vez que código determina totalmente nome e
 
 <br>
 
+#### Nesse caso, podemos fazer o seguinte. Dividimos o valor de Endereço, para conseguirmos analisar melhor essas relações de dependencia.
+
+<br>
+
+Então teriamos: Uma **Rua** dependendendo de uma **Cidade** e esta sendo dependente de **Estado**
+
+
+Endereço        |                |              |    |           |    |
+|---|---|---|---|---|---|
+| Rua           | Bairro         | Cidade       | Nº | CEP       |UF|
+|  Silberchartz | Liberdade      | São Paulo    |  1 |565.985-150|SP |
+|  Rua Projetada| Jardim Europa  | Patos        |888 | 58.700-000|PB |
+|  Rua seis     |  Samanaú       | Caicó        | 36 | 59.300-000| RN |
+
+<br>
+
+Agora que temos esses dados separados, podemos visualizar melhor a relação de dependência.
 
 ItemPedido|   |   |   |   | |   | |
 |---|---|---|---|---|---|---|---|
@@ -224,4 +241,3 @@ ItemPedido|   |   |   |   | |   | |
 |3|25/10/2017|34| HD 1 Tb     |2|Uso Profissional|4|250,00
 |4|26/10/2017|35| HD 500 Gb   |1|Uso Pessoal     |6|100,00
 |1|24/10/2017|34| HD 1 Tb     |2|Uso Profissional|1|250,00
-
