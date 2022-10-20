@@ -20,24 +20,22 @@
 #### 1. Encontre os nomes de todos os empregados que trabalham para a Companhia Soft Sell
 
 <br>
-<br>
-
-### Banco de Dados:
-
-|      |      |        |               |           |
-| ---- | ---- | ------ | ------------- | --------- |
-| CNPJ | Nome | Cidade | Cod_Empregado | CNPJ_Trab |
 
 <br>
 
 ### Empregado
 
-|                     |                   |           |        |          |
-| ------------------- | ----------------- | --------- | ------ | -------- |
-| Código do Empregado | Nome do Empregado | Rua       | Cidade | Salário  |
-| 01                  | Fernando          | São Paulo | Caicó  | 2.500,00 |
-| 02                  | Arthur            | São Pedro | Caicó  | 3.400,00 |
+|                     |                   |           |        |          | |  |  |
+| --- | --- | --- | --- | --- | --- | ---| --- |
+| Matricula do Empregado | Nome do Empregado | Endereço | Salário  | Supervisor | Codigo do Departamento |
+| 01                  | Fernando          | Rua São Paulo, Nº 85, Bairro Boa Passagem, RN |  2.500,00 | Armando Silva| 01|
+| 02                  | Arthur            |  Rua São Pedro, Nº 023, Bairro Boa Passagem, RN|   3.400,00 | Afonso Nogueira | 02
+| 03                  | Pamela  Silva          |  Rua Santo Antonio, Nº 023, Bairro Paraiba, RN|   1.400,00 | Afonso Nogueira | 03
+| 04                  | Luísa Lima    |  Rua Qualquer, Nº 023, Bairro Guadalupe, SP|   1.000,00 | Pamela Silva | 03 |
 
+<br>
+<br>
+<br>
 R1 <= σ nome_companhia = "soft sell" (Companhia)
 R1 |x| cnpj = cnpj_trab (Trabalha)
 
